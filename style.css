@@ -12,9 +12,6 @@ body {
     padding-left: 0px;
     display: contents;
 }
-.home{
-    background-image: url(images/bg\ animation\ black.gif);
-}
 .mypic {
     width: 22vw;
     float: right;
@@ -55,27 +52,14 @@ body {
 .intro-name:hover {
     color: #EEEEEE;
 }
-
-.button-know-more {
-    text-align: center;
-    color: #EEEEEE;
-    background-color: #151515;
-    margin-top: 2%;
-    width: 175px;
-    height: 50px;
-    font-size: larger;
-    font-family: Garamond, serif 2vw;
-    border-radius: 15px 50px;
-    margin-left: 30px;
-}
-
-.button-know-more:hover {
-    background-color: black;
-    color: #865DFF;
-}
-
 .intro-main {
+    background-image: url(images/bg\ animation\ black.gif);
     background-color: #151515;
+    
+    background-blend-mode: lighten;
+    padding: 8%;
+    margin: 0%;
+    aspect-ratio: 16/9;
     padding-bottom: 2%;
 }
 
@@ -83,10 +67,14 @@ body {
     color: black;
     font-size: 20px;
 }
+.div-links{
+    padding-left: 20px;
+}
+
 .links{
     width: 1.8vw;
     padding-top: 20px;
-    padding-left: 30px;
+    padding-left: 15px;;
     
 }
 .topnav {
@@ -189,6 +177,7 @@ body {
 .sticky+.content {
     padding-top: 60px;
 }
+
 
 .github-icon {
     width: 15px;
