@@ -6,12 +6,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
   <link rel="icon" href="images/icon.jpeg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <div class="topnav" id="navbar">
+  <header>
+    <nav id="navbar">
+      <ul class = "nav-bar">
+          <li class="logo"><a href="index.html"><img src="/images/icon.jpeg" alt="logo"></a></li>
+          <input type="checkbox" id="check">
+          <span class="menu">
+            <li><a class="menu-option" href="">Home</a></li>
+            <li><a class="menu-option" href="#paragraph">About Me</a></li>
+            <li><a class="menu-option" href="#resume">Resume</a></li>
+            <li><a class="menu-option" href="">Projects</a></li>
+            <li><a class="menu-option" href="">Blog</a></li>
+            <li><a class="menu-option" href="">Contact</a></li>
+            <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+          </span>
+          <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+        </ul>
+    </nav>
+  </header>
+
+  <!-- <div class="topnav" id="navbar">
     <img src="images/icon.jpeg" style="width:3vw;height:auto;">
     <a href="#home">Contact</a>
     <div class="dropdown">
@@ -28,11 +48,10 @@
     <a href="#resume">Resume</a>
     <a href="#paragraph">About Me</a>
     <a class="active" href="index.html">Home</a>
-  </div>
+  </div> -->
   <div class="home" style="width: 100%;">
     <div style="margin-bottom: 0%;" class="intro-main">
-      <br>
-      <br>
+      <br style="color: #151515;">
       <img class="mypic" src="images/mypic.png" alt="owner image">
       <!-- <h1 class="intro"> Hello!</h1> -->
       <div>
@@ -51,7 +70,7 @@
   </div>
   <br id="paragraph">
   <hr color="white">
-  <div style="margin: 70px; margin-bottom: 0%;" class="content intro-para">
+  <div style="margin-bottom: 0%;" class="content intro-para">
     <h3 class="page-head"><a class="page-head" href="#paragraph">About Me</a></h3>
     <p>
       I am a dedicated and enthusiastic student currently pursuing a Bachelor of Science in Bioinformatics Engineering
