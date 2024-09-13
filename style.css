@@ -4,6 +4,10 @@
 
 * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, serif 20px;
+    background-color: #151515;
+    background-image: url(images/stars.gif);
+    background-blend-mode: lighten;
+    background-blend-mode: color-dodge;
 }
 
 body {
@@ -17,6 +21,7 @@ body {
     float: right;
     padding-right: 70px;
     padding-top: 40px;
+    
 }
 
 .intro:hover {
@@ -25,7 +30,7 @@ body {
 
 .intro {
     color: #EEEEEE;
-    background-color: #151515;
+    
     white-space: nowrap;
     overflow: hidden;
     text-align: left;
@@ -37,7 +42,6 @@ body {
 
 .intro-name {
     color: #865DFF;
-    background-color: #151515;
     white-space: nowrap;
     overflow: hidden;
     margin: 0%;
@@ -49,9 +53,9 @@ body {
 }
 .intro-main {
     background-image: url(images/bg\ animation\ black.gif);
-    background-color: #151515;
-
+    background-image: url(images/stars.gif);
     background-blend-mode: lighten;
+    background-blend-mode: color-dodge;
     padding: 8%;
     margin: 0%;
     aspect-ratio: 16/9;
@@ -59,9 +63,9 @@ body {
 }
 
 .intro-para {
-    color: black;
+    color: #ccc;
     font-size: 15px;
-    margin: 70px;
+    margin: 150px;
 }
 .div-links{
     padding-left: 20px;
@@ -83,6 +87,7 @@ body {
     background-color: #151515;
     padding: 0;
     padding-top: 5px;
+    padding-bottom: 5px;
     margin: 0;
     
 }
@@ -122,65 +127,18 @@ body {
     display: none;
 }
 .open-menu {
+    margin: 2%;
     top: 50%;
     right: 20px;
     transform: translateY(-50%);
 }
 .close-menu {
+    margin: 2%;
     top: 20px;
     right: 20px;
 }
 #check {
     display: none;
-}
-
-
-/* .menu li a::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    background-color: #865DFF;
-    transition: 0.15s ease-in-out;
-} */
-/*  */
-/* .topnav {
-    background-color: #151515;
-    overflow: hidden;
-}
-
-.topnav img {
-    width: 46px;
-}
-
-.topnav a {
-    float: right;
-    color: #865DFF;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 1.2vw;
-}
-
-.topnav a:hover {
-    background-color: #151515;
-    color: #EEEEEE;
-    border-bottom: #865DFF;
-    text-decoration: underline 3px #865DFF;
-    letter-spacing: 2px;
-}
-
-.topnav a.active {
-    background-color: #1e0f4b;
-    color: #EEEEEE;
-    border-bottom: #865DFF;
-}
-
-.dropdown {
-    float: right;
-    overflow: hidden;
 }
 
 /* Dropdown button */
@@ -217,17 +175,23 @@ body {
     width: 15px;
 }
 
+.resume-link{
+    font-size: 12px;
+    color: #ccc;
+}
 .resume {
-    margin: 70px;
+    margin: 150px;
+    margin-top: 30px;
     margin-bottom: 0%;
-    font-size: 1.0rem;
+    font-size: 15px;
+    color: #ccc;
 }
 
 .resume-head {
     text-align: center;
-    color: #151515;
+    color: #ccc;
     font-weight: bolder;
-    font-size: 1.5vw;
+    font-size: 15px;
 }
 
 .resume-titles {
@@ -237,9 +201,77 @@ body {
 }
 
 li {
-    font-size: large;
+    font-size: 15px;
 }
+#contact{
+    margin-top: 10%;
+    text-align:  center;
+    color: #865DFF;
+    background-color: #151515;
+}
+.contact-form {
+    margin-left: 35%;
+    margin-top: 0%;
 
+}
+.form-label{
+    color: #f5f1ff;
+}
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+    color: #ccc;
+}
+input[type=email], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #ccc;
+}
+input[type=tel], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #ccc;
+}
+input[type=submit] {
+    width: 50%;
+    background-color: #865DFF;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+input[type=submit]:hover {
+    background-color: #5434b2;
+  }
+  
+textarea{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #ccc;
+}
 @media screen and (max-width: 500px) {
     .navbar a {
         float: none;
@@ -308,5 +340,33 @@ li {
     .intro-para{
         font-size: 12px;
         margin: 30px;
+    }
+    .github-icon {
+        width: 10px;
+    }
+    
+    .resume {
+        margin: 70px;
+        margin-bottom: 0%;
+        font-size: 12px;
+    }
+    .resume-link{
+        font-size: 10px;
+    }
+    .resume-head {
+        text-align: center;
+        color: #151515;
+        font-weight: bolder;
+        font-size: 12px;
+    }
+    
+    .resume-titles {
+        text-align: left;
+        color: #865DFF;
+        font-weight: bolder;
+    }
+
+    li {
+        font-size: 12px;
     }
 }
