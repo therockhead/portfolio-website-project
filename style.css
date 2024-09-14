@@ -17,7 +17,7 @@ body {
     display: contents;
 }
 .mypic {
-    width: 250px;
+    width: 280px;
     float: right;
     padding-right: 70px;
     padding-top: 40px;
@@ -209,6 +209,9 @@ li {
     color: #865DFF;
     background-color: #151515;
 }
+#contact:hover {
+    letter-spacing: 2px;
+}
 .contact-form {
     margin-left: 35%;
     margin-top: 0%;
@@ -257,10 +260,10 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
+}
 input[type=submit]:hover {
     background-color: #5434b2;
-  }
+}
   
 textarea{
     width: 50%;
@@ -289,7 +292,41 @@ textarea{
 .page-head:hover {
     letter-spacing: 2px;
 }
+.project{
+    align-items: center;
+}
+.project-head {
+    text-align: center;
+    color: #865DFF;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.project-head:hover {
+    letter-spacing: 2px;
+}
+.project-title{
+    font-weight: bolder; 
+    /* font-size: 16px; */
+    text-shadow: #865DFF;
+    color: #ccc;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+.project-description{
+    color: #ccc;
+    margin: 80px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.project-pic{
+    width: 350px;
+}
+.project-gif{
+    width: 800px;
+    margin-left: 80px;
+    
 
+}
 .waviy {
     background-image: url(images/WSG.gif);
     background-size: cover;
@@ -302,6 +339,31 @@ textarea{
     margin: 0%;
     padding-top: 15px;
     padding-left: 30px;
+}
+
+#back-to-top{
+    width: 20%;
+    background-color: #3b3a3c;
+    color: white;
+    padding: 14px 20px;
+    margin: ;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.back-to-top{
+    color: #ccc;
+    background-color: #3b3a3c;
+    text-decoration: none;
+}
+.rockhead-footer{
+    color: #858585;
+    font-size: smaller;
+    text-align: center;
+    background: #18022e;
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 5px;
 }
 @media(max-width: 820px){
     .menu {
@@ -369,4 +431,129 @@ textarea{
     li {
         font-size: 12px;
     }
+    .project{
+        align-items: center;
+    }
+    .project-head {
+        text-align: center;
+        color: #865DFF;
+        font-weight: bolder;
+        text-decoration: none;
+    }
+    .project-head:hover {
+        letter-spacing: 2px;
+    }
+    .project-title{
+        font-weight: bolder; 
+        /* font-size: 16px; */
+        text-shadow: #865DFF;
+        color: #ccc;
+        margin-left: 60px;
+        margin-bottom: 20px;
+        font-size: 13px;
+    }
+    .project-description{
+        color: #ccc;
+        margin: 80px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .project-pic{
+        width: 200px;
+    }
+    .project-gif{
+        width: 325px;
+        margin-left: 50px;
+        margin-right: 30px;
+    }
+    #contact{
+        margin-top: 10%;
+        text-align:  center;
+        color: #865DFF;
+        background-color: #151515;
+    }
+    #contact:hover {
+        letter-spacing: 2px;
+    }
+    .contact-form {
+        margin-left: 20%;
+        margin-top: 0%;
+    
+    }
+    .form-label{
+        color: #f5f1ff;
+        font-size: 12px;
+    }
+    input[type=text], select {
+        width: 80%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        
+        color: #ccc;
+    }
+    input[type=email], select {
+        width: 80%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        color: #ccc;
+    }
+    input[type=tel], select {
+        width: 80%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        color: #ccc;
+    }
+    input[type=submit] {
+        width: 80%;
+        background-color: #865DFF;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    input[type=submit]:hover {
+        background-color: #5434b2;
+    }
+      
+    textarea{
+        width: 80%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        color: #ccc;
+    }
+    #back-to-top{
+        width: 50%;
+        background-color: #3b3a3c;
+        color: white;
+        padding: 14px 20px;
+        margin: 50px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .back-to-top{
+        color: #ccc;
+        background-color: #3b3a3c;
+        text-decoration: none;
+    }
+    
 }

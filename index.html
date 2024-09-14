@@ -23,7 +23,7 @@
           <li><a class="menu-option" href="index.html">Home</a></li>
           <li><a class="menu-option" href="#paragraph">About Me</a></li>
           <li><a class="menu-option" href="#resume">Resume</a></li>
-          <li><a class="menu-option" href="">Projects</a></li>
+          <li><a class="menu-option" href="#projects">Projects</a></li>
           <li><a class="menu-option" href="">Blog</a></li>
           <li><a class="menu-option" href="#contact">Contact</a></li>
           <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
@@ -32,25 +32,6 @@
       </ul>
     </nav>
   </header>
-
-  <!-- <div class="topnav" id="navbar">
-    <img src="images/icon.jpeg" style="width:3vw;height:auto;">
-    <a href="#home">Contact</a>
-    <div class="dropdown">
-      <button class="dropbtn">Blog
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-        <a href="#">Competitive Programming</a>
-        <a href="#">DSA</a>
-        <a href="#">Web Development</a>
-      </div>
-    </div>
-    <a href="#news">Projects</a>
-    <a href="#resume">Resume</a>
-    <a href="#paragraph">About Me</a>
-    <a class="active" href="index.html">Home</a>
-  </div> -->
   <div class="home" style="width: 100%;">
     <div style="margin-bottom: 0%;" class="intro-main">
       <br style="color: #151515;">
@@ -218,18 +199,9 @@
       </tr>
       <tr>
         <td>
-          <ul type="square">
-            <li><b>ACM website (Contributor)</b><br>
-              <small>used HTML, CSS, JavaScript<br>University Project Contribution</small>
-            </li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td>
           <h3 class="resume-titles"><b>POSITION OF RESPONSIBILITY</b></h3>
           <ul type="square">
-            <li><b>Founding Member</b><br>
+            <li><b>Student Advisor</b><br>
               <small>ACM lab, BAU<br>
                 Organized programming workshop, hackathons, sessions, contests</small>
             </li>
@@ -248,6 +220,60 @@
       </tr>
     </table>
     <br>
+  </div>
+  <br>
+  <br>
+  <br id="projects">
+  <br>
+  <div class="projects">
+    <h3 class="project-head">Projects</h3>
+    <br>
+    <br>
+    
+      <h3 class="project-title">Medical Store Management Project</h3><br>
+      <img class="project-pic" style="margin-left: 80px; margin-top: 10px;" src="images/projects/msm-01.png">
+      <img class="project-pic" style="margin-left: 80px; margin-top: 10px;" src="images/projects/msm-02.png">
+      <img class="project-pic" style="margin-left: 80px; margin-top: 10px;" src="images/projects/msm-03.png">
+      <br><br>
+      <p class="project-description">A simple medical store management app made with python and Tkinter GUI.
+        <br>-Assigned by <b>Dr. Machbah Uddin Sir</b> (Course- CSM 1124)
+        <br><br>
+        <b>Functionalities-</b>
+        <ul type="square" class="project-description">
+          <li>Users can register themselves in the app.</li>
+          <li>Users can login to the app once they complete registration.</li>
+          <li>One User can only open an account with an unique name.</li>
+          <li>Easily add products to an excel file and can display in the app treeview.</li>
+          <li>Generate new invoices for the customers with their basic info and purchase record.</li>
+          <li>It also have a toggle switch for users/salesman to use dark/night mode in the menu</li>
+        </ul>
+        <text class="project-description" style="color: #ccc;"><b>Github Repo:</b><a target="_blank" href="https://github.com/therockhead/medical-store-management"
+          style="color: #ccc; text-decoration: underline 2px #865DFF; margin-left: 4px;">Click Here</a></text>
+        
+        <br>
+        <br>
+
+    <br>
+      <h3 class="project-title">Space Shooting Game (Alien Invaders Mu-ha-ha-ha)</h3>
+      <img class="project-gif" style="" src="images/projects/space-shooter-game.gif"><br><br>
+      <p class="project-description">Humanity stands against alien invasion. Made a kid's game for my little brother.
+        It was fun.👽<br>
+        added screenshots, a gameplay video. you can find the setup info to try out the game on your machine from the
+        README.md file in the repo.
+        <br><br>
+        <b>Functionalities-</b>
+        <ul type="square" class="project-description">
+          <li>Press Space-bar to shoot</li>
+          <li>Use Arrow Keyes to move the spaceship</li>
+          <li>Score will be displayed on the top-left corner</li>
+          <li>If the Invaders touch the spaceship, it's GAME OVER :p</li>
+        </ul>
+        <text class="project-description" style="color: #ccc;"><b>Github Repo:</b><a target="_blank" href="https://github.com/therockhead/Space-Shooter-Game" class="project-description"
+          style="color: #ccc;margin-left: 4px; text-decoration: underline 2px #865DFF;">Click Here</a></text>
+        
+        <br>
+        <br>
+      </p>
   </div>
   <br id="contact">
   <div>
@@ -287,6 +313,14 @@
     <br>
 
   </div>
+  <div align="center">
+      <button id="back-to-top"><a class="back-to-top" href="index.html">Back to Top</a></button>
+  </div>
+  <div>
+    <footer class="rockhead-footer">
+      <text class="rockhead-footer">&#169Asif-TheRockHead-2024</text>
+    </footer>
+  </div>
 
   <script>
     window.onscroll = function () { myFunction() };
@@ -302,7 +336,6 @@
       }
     }
   </script>
-
 
 </body>
 
