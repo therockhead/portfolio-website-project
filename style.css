@@ -340,7 +340,16 @@ textarea{
     padding-top: 15px;
     padding-left: 30px;
 }
-
+.blog{
+    width: 100%;
+}
+#blog{
+    margin-top: 10%;
+    margin-bottom: 20px;
+}
+.blog-head{
+    color: #865DFF;
+}
 #back-to-top{
     width: 20%;
     background-color: #3b3a3c;
